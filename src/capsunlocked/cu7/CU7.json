@@ -1,0 +1,28 @@
+{
+    "name": "CU7",
+    "url": "https://caps-unlocked.com/keyboard/cu7",
+    "vendorId": "0x4355",
+    "productId": "0x0007",
+    "lighting": "qmk_backlight_rgblight",
+    "matrix": { "rows": 3, "cols": 3 },
+    "layouts": {
+      "keymap": [
+		[
+			{
+				"x": 0.75,
+				"w": 1.5,
+				"h": 1.5
+			},
+			"0,1"
+		],
+        [
+			{
+				"x": 0,
+				"y": 1,
+				"w": 1
+			},
+			"1,0", "1,1", "1,2"],
+        ["2,0", "2,1", "2,2"]
+      ]
+    }
+}
